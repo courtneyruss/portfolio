@@ -1,0 +1,14 @@
+{{ if .Site.Data.homepage.skills.enable }}
+<section id="skills" class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>{{ .Site.Data.homepage.skills.title | safeHTML }}</h2>
+                <p class="lead">
+                    {{ .Site.Data.homepage.skills.description | safeHTML }}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

@@ -1,0 +1,50 @@
+baseURL: /
+languageCode: en-us
+theme: raditian-free-hugo-theme-data-science
+params:
+  footer:
+    copyright: © Courtney Russ. All rights reserved.
+    site_logo:
+      _2x: img/general/business-science-logo.png
+      alt: Image
+      x: img/general/business-science-logo.png
+  googleAnalyticsID: ''
+  logo:
+    text1: Courtney
+    text2: Russ
+  plugins:
+    css:
+      - URL: css/main.css
+      - URL: css/rad-icons.css
+      - URL: css/custom.css
+    js:
+      - URL: js/rad-animations.js
+      - URL: js/sticky-header.js
+      - URL: js/library/fontfaceobserver.js
+  sections:
+    - showcase
+    - client-and-work
+    - experience
+    - education
+    - contact
+menu:
+  footer:
+    - URL: '#portfolio'
+      name: Portfolio
+      weight: 2
+    - URL: '#education'
+      name: Education
+      weight: 3
+    - URL: '#contact'
+      name: Contact
+      weight: 4
+  header:
+    - URL: '#portfolio'
+      name: Portfolio
+      weight: 2
+    - URL: '#education'
+      name: Education
+      weight: 3
+    - URL: '#contact'
+      name: Contact
+      weight: 4

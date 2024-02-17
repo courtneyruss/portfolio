@@ -1,0 +1,130 @@
+head:
+  title: "Courtney Russ"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Courtney."
+  subtitle: 
+  description: "<strong>I help organisations use data to make good decisions.</strong> I have worked in the public healthcare system for several years and I'm passionate about this space.
+  <br> <br> My analysis tool of choice is <strong>R</strong> and I am experienced with a range of tools including <strong>Tableau, PowerBI, and Python</strong> as well as database tools like <strong> MySQL, Oracle Database, and Snowflake </strong>. <br><br>I specialise in <strong>structuring data, building user-friendly dashboards</strong>, and <strong>providing tailored education</strong> to help you and your team realise your data's potential."
+  image:
+    x: "img/showcase/main_img.gif"
+    _2x: "img/showcase/main_img.gif"
+  imageMobile:
+    x: "img/showcase/main_img.gif"
+    _2x: "img/showcase/main_img.gif"
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Connect on Linkedin"
+    URL: "https://www.linkedin.com/in/courtney-russ/"
+    
+# about
+about:
+  enable: false
+  title: "About Me"
+  content:
+
+# experience
+experience:
+  enable: false
+  title: "Experience"
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/courtney-russ/"
+
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - degree: "Graduate Certificate <br> Business Analytics"
+      year: "2023"
+      subheading: "The University of Waikato"
+      details: "<a href=https://www.myequals.net/sharelink/9f5da0ac-8157-4046-ae2d-a9f38abad01f/7b34ecfc-f4ff-4526-9ebc-e00b03f0b294> Verify </a> | <a href=https://www.myequals.net/sharelink/30d83cf2-6eb6-4be3-bfac-3c1b1d014c7f/030bcd49-5b25-49fa-b748-ac100eb50392> Academic Record </a>"
+
+    - degree: "Bachelor of Science"
+      year: "2017"
+      subheading: "The University of Auckland"
+      details: "Major: Biological Sciences | <a href=https://www.myequals.net/sharelink/20015977-804c-4886-8612-bfafe643fdc7/f8910930-7608-40ee-8514-8b50411d8846> Verify </a>"
+    
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  enable_clients: false
+  
+  works:
+    - title: "EV Charging Stations Map"
+      description: "This application allows users to find EV charging stations across New Zealand. Results can be filtered by time limit and cost. <br> Created in R using Shiny and Leaflet."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch App"
+        URL: "https://courtneyruss.shinyapps.io/EV_map/"
+      image:
+        x: "img/works/ev-map.png"
+        _2x: "img/works/ev-map.png"
+      is_even: true
+
+    - title: "Expected Property Rateable Value Dashboard"
+      description: "This dashboard uses TradeMe Property data to find the expected price of a property based on its features including city, number of bedrooms, and number of bathrooms. <br> This dashboard was created in Tableau with data scraped using webscraper.io and processed in Tableau Prep. This was part of a group assignment for BUSAN300 at The University of Waikato. <br> <a href='https://github.com/courtneyruss/busan301_group_project/blob/main/BUSAN301%20Group%20Project%20-%20Report.pdf'>See full report here</a> "
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Interactive Dashboard"
+        URL: "https://public.tableau.com/app/profile/courtney.russ6412/viz/TradeMePropertyExpectedRV/Dashboard2"
+      image:
+        x: "img/works/property2.png"
+        _2x: "img/works/property2.png"
+      is_even: false      
+
+    - title: "Spotify Data Analysis"
+      description: "This is an analysis of my entire Spotify streaming history. It uses the Spotify Web API to extract track details and demonstrates a range of exploratory data analysis techniques. <br> Created in R."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Go to document"
+        URL: "https://rpubs.com/courtney_russ/1134280"
+      image:
+        x: "img/works/spotify3.png"
+      is_even: true    
+
+    - title: "Milk Production Statistical Analysis"
+      description: "This analysis uses multiple regression to model the volume of breast milk produced by an exclusively-pumping mother."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Go to document"
+        URL: "https://rpubs.com/courtney_russ/1137051"
+      image:
+        x: "img/works/pumping.png"
+      is_even: false    
+
+# testimonial
+testimonial:
+  enable: false
+
+# contact
+contact:
+  enable: true
+  title: "Contact Me"
+    
+  image:
+    x: "img/who-am-i/headshot_small.png"
+    _2x: "img/who-am-i/headshot_small.png"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:courtney@courtneyruss.com'
+    
+  email:
+    title: "Email"
+    email: '<a href="mailto:courtney@courtneyruss.com">courtney@courtneyruss.com</a>'
+  
+
+# newsletter
+newsletter:
+  enable: false
