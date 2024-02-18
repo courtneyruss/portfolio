@@ -8,12 +8,12 @@
                     {{ range .Site.Data.homepage.education.items }}
                     <div class="col-6 mb-4"> <!-- Adjusted to col-6 to display side by side -->
                         <div class="education">
-                            <div class="education__date">{{ .year | safeHTML }}</div>
+                            <div class="education__date" style="font-size: 1.1rem">{{ .year | safeHTML }}</div> <!-- Adjusted font size -->
                             <div class="education__title">
                                 <h4>{{ .university | safeHTML }}</h4>
-                                <h3 class="education__subheading">{{ .degree | safeHTML }}</h3>
+                                <h3 class="education__subheading" style="font-size: 1.2rem">{{ .degree | safeHTML }}</h3> <!-- Adjusted font size -->
                             </div>
-                            <div class="education__degree education__details">
+                            <div class="education__degree education__details" style="font-size: 1.1rem"> <!-- Adjusted font size -->
                                 <strong>{{ .subheading | safeHTML }}</strong> <br> {{ .details | safeHTML}}
                             </div>
                         </div>
