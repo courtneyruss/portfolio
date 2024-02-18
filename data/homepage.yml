@@ -78,8 +78,8 @@ client_and_work:
         btnText: "Launch Interactive Dashboard"
         URL: "https://public.tableau.com/app/profile/courtney.russ6412/viz/TradeMePropertyExpectedRV/Dashboard2"
       image:
-        x: "img/works/property2.png"
-        _2x: "img/works/property2.png"
+        x: "img/works/property.png"
+        _2x: "img/works/property.png"
       is_even: false      
 
     - title: "Spotify Data Analysis"
@@ -89,8 +89,8 @@ client_and_work:
         btnText: "Go to document"
         URL: "https://rpubs.com/courtney_russ/1134280"
       image:
-        x: "img/works/spotify3.png"
-        _2x: "img/works/spotify3.png"
+        x: "img/works/spotify.png"
+        _2x: "img/works/spotify.png"
       is_even: true    
 
     - title: "Milk Production Statistical Analysis"
