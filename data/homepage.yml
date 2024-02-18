@@ -90,6 +90,7 @@ client_and_work:
         URL: "https://rpubs.com/courtney_russ/1134280"
       image:
         x: "img/works/spotify3.png"
+        _2x: "img/works/spotify3.png"
       is_even: true    
 
     - title: "Milk Production Statistical Analysis"
@@ -100,6 +101,7 @@ client_and_work:
         URL: "https://rpubs.com/courtney_russ/1137051"
       image:
         x: "img/works/pumping.png"
+        _2x: "img/works/pumping.png"
       is_even: false    
 
 # testimonial
