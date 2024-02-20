@@ -9,11 +9,11 @@ showcase:
   description: "<strong>I help organisations use data to make good decisions.</strong> I have worked in the public healthcare system for several years and I'm passionate about this space.
   <br> <br> My analysis tool of choice is <strong>R</strong> and I am experienced with a range of tools including <strong>Tableau, PowerBI, and Python</strong> as well as database tools like <strong> MySQL, Oracle Database, and Snowflake </strong>. <br><br>I specialise in <strong>structuring data, building user-friendly dashboards</strong>, and <strong>providing tailored education</strong> to help you and your team realise your data's potential."
   image:
-    x: "img/showcase/main_img.gif"
-    _2x: "img/showcase/main_img.gif"
+    x: "img/showcase/header_main.gif"
+    _2x: "img/showcase/header_main.gif"
   imageMobile:
-    x: "img/showcase/main_img.gif"
-    _2x: "img/showcase/main_img.gif"
+    x: "img/showcase/header_main.gif"
+    _2x: "img/showcase/header_main.gif"
   button:
     icon: "icon-linkedin-fill"
     btnText: "Connect on Linkedin"
