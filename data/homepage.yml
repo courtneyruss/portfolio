@@ -60,6 +60,15 @@ client_and_work:
   enable_clients: false
   
   works:
+    - title: "nzdata R Package"
+      description: "nzdata is an open source API wrapper for data.govt.nz to improve ease of use for non-developers. <br> License: MIT"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "View on Github"
+        url: "https://github.com/courtneyruss/nzdata"
+      image:
+        x: "img/works/nzdata.png"
+        _2x: "img/works/nzdata.png"
     - title: "EV Charging Stations Map"
       description: "This application allows users to find EV charging stations across New Zealand. Results can be filtered by time limit and cost. <br> Created in R using Shiny and Leaflet."
       button:
